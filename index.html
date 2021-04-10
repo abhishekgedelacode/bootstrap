@@ -3,6 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
@@ -11,23 +12,103 @@
     <title>AbhiCode | peer to peer </title>
     <!-- favicon for the page -->
     <link rel="shortcut icon" href="./logo.jpg" type="image/x-icon" />
+    <style>
+      #stick {
+        position: sticky;
+        left: 0;
+        top: 0;
+        z-index: 1;
+      }
+    </style>
   </head>
   <body>
       <!-- all the code of the page goes here  -->
 
-    <header class="container-fluid" id="stick">
-        <div class="row">
-            <div class="text-center col-2">
-                <img src="./logo.jpg" class="img-fluid rounded-circle" alt="logo">
-            </div>
-            <div class="text-center text-light fw-bold col-10">     
-                <div class="row">
-                    <div class="bg-danger col-md-4">heading of the page</div>
-                    <div class="bg-warning col-md-8">links of the page</div>
-                </div>
-            </div>
+    <header class="container-fluid m-0 p-0 " id="stick">
+      
+
+      <!-- second one -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light fs-1 fw-bold p-0">
+            <img src="./logo.jpg" alt="" width="40" height="40" class="  rounded-circle d-inline-block align-text-center ">
+            AbhiCode
+          <a/>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 pt-2">
+              <li class="nav-item w-100 text-center">
+                <a class="nav-link active text-info fw-bold" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item w-100 text-center">
+                <a class="nav-link active text-info fw-bold" href="#">Features</a>
+              </li>
+              <li class="nav-item w-100 text-center">
+                <a class="nav-link active text-info fw-bold" href="#">Pricing</a>
+              </li>
+              <li class="nav-item w-100 text-center">
+                <a class="nav-link active text-info fw-bold" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="type here..." aria-label="Search">
+              <button class="btn btn-outline-success fw-bold" type="submit">search</button>
+            </form>
+          </div>
         </div>
+      </nav>
     </header>
+
+    <!-- think first code next  -->
+    <div class="container-fluid bg-dark text-warning text-center p-0 m-0">
+      <h1 class="fw-bold text-capitalize m-0 p-0 ">think first code next</h1>
+    </div>
+
+    <!-- this is cover photo for the page  -->
+    <div class="container-fluid m-0 p-0">
+      <img src="./coverpic.png"  class="img-fluid m-0 p-0 " alt="">
+    </div>
+
+    <!-- cards of the videos , blogs and notes  -->
+    <div class="container fluid m-0 p-2 bg-dark">
+      <div class="row dflex justify-content-around m-0 p-0">
+        <div class="col-md-3 m-2 card text-white bg-danger ">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Danger card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+
+        <div class="col-md-3 m-2 card text-white bg-danger ">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Danger card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+
+        <div class="col-md-3 m-2 card text-white bg-danger ">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Danger card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+
+        <div class="col-md-3 m-2 card text-white bg-danger ">
+          <div class="card-header">Header</div>
+          <div class="card-body">
+            <h5 class="card-title">Danger card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
 
       <!-- end of my code  -->
     
